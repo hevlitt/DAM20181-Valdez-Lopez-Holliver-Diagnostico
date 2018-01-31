@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-escale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Login</title>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="jumbotron boxlogin">
+      <form class="form-group" action="Principal.html" method="post" onsubmit="return validar();">
+        <label>Usuario:</label>
+        <input type="text" id="user" name="User" placeholder="User" class="form-control">
+        <label>Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+        <input type="submit" name="submit" value="Conectar" class="btn btn-success form-control btn-enviar">
+      </form>
+    </div>
+  </body>
+</html>

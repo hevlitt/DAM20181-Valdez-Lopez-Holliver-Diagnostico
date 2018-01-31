@@ -1,0 +1,26 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+    font-size: 90px;
+    align-content: center;
+}
+#l1{
+  margin-left: auto;
+  margin-top: 30px;
+  font-size: 70px;
+}
+#l2{
+  margin-left: auto;
+  margin-top: 20px;
+  font-size: 20px;
+}
+input[type="text"]{
+  margin-top: 5px;
+  margin-bottom:13px;
+}
+
+input[type="submit"]{
+  margin-top: 0px;
+}
